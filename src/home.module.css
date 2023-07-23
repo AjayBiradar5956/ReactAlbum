@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    background-color: beige;
+    width: auto;
+}
+
+.listContainer {
+    background-color: red;
+    min-height: 100px;
+    margin: 30px 10px 30px 10px;
+    padding: 5px;
+}
+
+.addAlbum {
+    background-color: aqua;
+    height: 20vh;
+    margin: 0px 200px;
+}
+
+.albumCard {
+    height: 60px;
+    background-color: white;
+    margin: 10px 5px;
+    position: relative;
+}
+
+.albumCardDetails {
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title {
+    margin-left: 15px;
+}
+
+.btn:hover {
+    color: blue;
+}

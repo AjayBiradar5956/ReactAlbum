@@ -20,6 +20,8 @@ function Home() {
     //ADD A NEW ALBUM
     function handleSubmit(e) {
         e.preventDefault();
+        title.setValue('');
+        userId.setValue('');
         console.log(title.value, userId.value);
         fetch('https://jsonplaceholder.typicode.com/albums', {
             method: 'POST',
